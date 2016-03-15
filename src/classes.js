@@ -49,3 +49,19 @@ class KeepSecret {
     }
   }
 }
+
+class Key {
+
+}
+
+class Safe {
+  constructor(secret, Key){
+    this.unlock = function(open) {
+      if (open == Key) {
+        return secret;
+      } else {
+        return 0;
+      }
+    }
+  }
+}

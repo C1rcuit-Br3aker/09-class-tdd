@@ -16,7 +16,9 @@ class Cat {
   growl() {
     return `meow`;
   }
-
+  constructor(size) {
+    this.size = size;
+}
 }
 
 var garfield = new Cat;
@@ -31,4 +33,10 @@ class FacelessMan {
 }
 
 var aMan = new FacelessMan(`Jaqen H'ghar`);
-aMan.name();
+aMan.name;
+
+class Lion extends Cat {
+  constructor(size) {
+    super ('BIG');
+  }
+}

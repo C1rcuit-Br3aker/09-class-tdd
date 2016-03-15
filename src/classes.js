@@ -40,3 +40,12 @@ class Lion extends Cat {
     super ('BIG');
   }
 }
+
+class KeepSecret {
+
+  constructor(secret) {
+    this.squeal = function() {
+      return secret;
+    }
+  }
+}

@@ -13,10 +13,22 @@ class Dog {
 }
 
 class Cat {
-  constructor(growl) {
-    this.growl = 'growls';
+  growl() {
+    return `meow`;
   }
+
 }
 
-var garfield = new Cat(garfield);
+var garfield = new Cat;
+
 garfield.growl;
+
+class FacelessMan {
+  constructor(name) {
+    this.name = name;
+  }
+
+}
+
+var aMan = new FacelessMan(`Jaqen H'ghar`);
+aMan.name();

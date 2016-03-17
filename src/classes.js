@@ -23,8 +23,6 @@ class Cat {
 
 var garfield = new Cat;
 
-garfield.growl;
-
 class FacelessMan {
   constructor(name) {
     this.name = name;

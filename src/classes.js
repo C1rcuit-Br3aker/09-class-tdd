@@ -31,7 +31,6 @@ class FacelessMan {
 }
 
 var aMan = new FacelessMan(`Jaqen H'ghar`);
-aMan.name;
 
 class Lion extends Cat {
   constructor(size) {
